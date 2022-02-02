@@ -2,5 +2,5 @@
 <span id="clock"></span>
 <script type="javascript">
 var dt = new Date().toJSON().slice(0,19).replace(/-/g,'/').replace('T',' ');
-document.findElementById("clock").innerHtml(dt);
+document.getElementById("clock").innerHTML = dt
 </script>
